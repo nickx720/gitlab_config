@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitlab Percentage Tracker</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js" defer></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header><label id="dark-change"></label></header>
+    <h1>Nick's Personal GitLab Code Coverage</h1>
+    <main>
+        <div id="respon">
+            <section class="progress">
+                <label for="file">Analytics Process:</label>
+                <progress id="file" max="100" value="0"></progress>
+            </section>
+            <section class="chartContainer">
+                <canvas id="myChart"></canvas>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
